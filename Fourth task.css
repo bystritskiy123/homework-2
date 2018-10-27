@@ -1,0 +1,55 @@
+/*header*/
+#header{
+background-color:red; 
+width:100%;
+height:31%;
+opacity:.4;
+position:fixed;
+margin-top:-400px;
+}
+#header:hover{
+background-color:black; 
+opacity:1;
+}
+#header #img{
+background-image:url(images/1.jpg);
+width:450px;
+height:301px;
+margin-left:400px; 
+}
+#header #img2{
+background-image:url(images/2.jpg);
+width:450px;
+height:301px;
+margin-left:900px;
+margin-top:-300px;
+}
+/*header*/
+
+/*text*/
+#k1 h2{
+background:red;     
+margin-top:400px;
+margin-left:15%;     
+border:4px solid black;
+width:20%; 
+}
+
+#k2 h2{
+background:red;     
+margin-top:-1725px;
+margin-left:65%;     
+border:4px solid black;
+width:20%;   
+}/*text*/
+
+#footer{
+border:2px solid black;    
+margin-top:50px;
+width:100%;
+height:15%;
+opacity:.4;
+}
+#footer:hover{
+opacity:1;      
+}

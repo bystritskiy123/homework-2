@@ -1,0 +1,29 @@
+#main{
+border:5px solid black;
+width:900px;
+height:800px;
+margin-left:500px; 
+}
+
+
+#main #part1{
+width:500px;
+height:500px;
+background-color:red;     
+}
+
+#main #part2{
+width:500px;
+height:500px;
+background-color:blue;
+margin-left:400px;
+margin-top:-200px; 
+}
+
+#main #part3{
+background-color: chartreuse;
+width:570px;
+height:530px;
+margin-top:-650px;
+margin-left:150px; 
+}
