@@ -1,99 +1,58 @@
-body{
-overflow-x:hidden;
-}
-/*Таблица header*/
-#T1{
-margin-left:10px;     
-}
-#T1 tr td{
-background:orange;
-padding:150px 450px;    
-}
 
-#T2 tr td{
-background:orange;
-padding:150px 500px;     
+/*Таблица header*/
+#T1 tr{
+display:flex;     
 }
-#T2{
-margin-left:930px;
-margin-top:-304px;     
+#T1 .td{
+border:100px solid orange;    
+ background:orange;
+width:250%;     
+padding:2%; 
+margin-top:2%;
+margin-left:10%;     
+}
+#T1 .tf{
+border:100px solid orange;    
+ background:orange;
+width:250%;     
+padding:2%;
+margin-left:380%;
+margin-top:-105%;     
 }
 /*Таблица header*/
 
 /*основа*/
 #T3{
-margin-top:50px;     
-}
-
-#T3 tr td{
+margin-top:2%;
+border:100px solid yellow;    
 background:yellow;
-padding:400px 950px  
-}/*основа*/
+width:100%;
+padding:20%;    
+}
+/*основа*/
 
 /*footer*/
+#footer{
+display:flex;     
+}
+#footer .B4{ 
+border:10px solid blue;    
+background:blue;
+width:50%;
+padding:10%;
+margin-top:2%;
+margin-left:1%;     
+}
 #T4{
-margin-top:30px;    
+display:flex;
+margin-top:3%;     
 }
-
-#T4 tr td{
-background:blue;
-padding:180px 240px;     
-}
-
-#T5{
-margin-left:700px;
-margin-top:-365px;     
-}
-#T5 tr td{
-background:blue;
-padding:180px 250px;     
-}
-#T6{
-margin-left:1400px;
-margin-top:-365px;
-}
-
-#T6 tr td{
-background:blue;
-padding:180px 250px;     
-}
-
-#T7{
- margin-top:100px;    
-}
-
-#T7 tr td{
+#T4 .rt{
+ border:10px solid gray;    
 background:gray;
-padding:150px 200px;     
-}
-
-#T8{
- margin-top:-305px;
-margin-left:500px; 
-}
-#T8 tr td{
-background:gray;
-padding:150px 200px; 
-}
-
-#T9{
-margin-left:1000px;
-margin-top:-305px; 
-}
-
-#T9 tr td{
-background:gray;
-padding:150px 200px;   
-}
-
-#T10{
- margin-left:1480px;
-margin-top:-305px;
-}
-
-#T10 tr td{
-background:gray;
-padding:150px 200px;   
+width:50%;
+padding:5%;
+margin-left:1%;   
 }
 
 
